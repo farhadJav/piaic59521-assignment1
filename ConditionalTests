@@ -1,0 +1,36 @@
+let items = ['Audi','Yamaha','Honda','toyota'];
+if (items[Math.floor(Math.random() * 10)] == 'Yamaha')
+ console.log("True");
+ else
+ console.log("False");
+
+// TRUE STATEMENTS
+var result =  items.includes("Audi");
+console.log(result);
+
+var result =  items.includes("Yamaha");
+console.log(result);
+
+var result =  items.includes("Honda");
+console.log(result);
+
+var result =  items.includes("toyota");
+console.log(result);
+
+//FALSE STATEMENTS
+
+
+var result =  items.includes("1");
+console.log(result);
+
+var result =  items.includes("2");
+console.log(result);
+
+var result =  items.includes("3");
+console.log(result);
+
+var result =  items.includes("4");
+console.log(result);
+
+
+

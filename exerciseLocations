@@ -1,0 +1,8 @@
+let locations = ['MAKKAH', 'MADINA', 'SYRIA', 'EGYPT', 'CANADA'];
+console.log(locations);
+var sortedList = locations.slice().sort();
+console.log(sortedList);
+console.log(locations);
+console.log(locations.reverse());
+console.log(locations.reverse());
+console.log(locations.sort());
